@@ -1,3 +1,13 @@
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: "Roboto", "Arial", sans-serif;
+  letter-spacing: 0.5px;
+}
+
+
+
+
 .site-header {
   background-color: #fff;
 }
@@ -29,17 +39,9 @@ list-style: none;
 }
 
 .hero-heading{
-  font-weight: bold;
-  font-style: 40px;
+  font-size: 40px;
   line-height: 1.2;
-  letter-spacing: 0.5;
-
-}
-
-.hero-text{
-  font-style: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.5px;
+font-family: "Roboto Condensed", "Arial", sans-serif;
 }
 
 .hero-content{
@@ -62,6 +64,7 @@ list-style: none;
   font-size: 72;
   line-height: 1.2;
   letter-spacing: 0.5px;
+  font-family: "Roboto Condensed", "Arial" sans-serif;
 }
 
 .feature{
@@ -78,13 +81,10 @@ list-style: none;
   font-size: 24px;
   line-height: 1.2;
   letter-spacing: 0.5px;
+  font-family: "Roboto Condensed", "Arial" sans-serif;
 }
 
-.feature-info{
-  font-style: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.5px;
-}
+
 
 .promo{
   background-color: #252420;
@@ -99,13 +99,11 @@ list-style: none;
 .promo-heading{
   font-style: 40px;
   line-height: 48px;
+  font-family: "Roboto Condensed", "Arial" sans-serif;
 
 }
 
-.promo-text{
-  font-style: 16px;
-  line-height: 1.5;
-}
+
 
 .promo-highlight{
   color: #FF7500;
@@ -130,13 +128,13 @@ list-style: none;
   background-color: rgba(37, 36, 32, 0.5);
 }
 
-..site-footer-links {
+.site-footer-links {
   width: 224px;
+  line-height: 19px;
+
 }
 
 .site-footer-links a {
-  font-style: 16px;
-  line-height: 19px;
   text-decoration: none;
   color: #252420;
 }
